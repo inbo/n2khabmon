@@ -1,0 +1,25 @@
+{
+    "title": "R package n2khabmon: prepare and manage N2KHAB monitoring schemes",
+    "description": "n2khabmon is an R package with utilities to prepare and manage Flemish monitoring schemes regarding Natura 2000 habitats and regionally important biotopes (RIBs). URL: <a href=\"https://inbo.github.io/n2khabmon\">https://inbo.github.io/n2khabmon</a>.",
+    "license": "GPL-3.0",
+    "upload_type": "software",
+    "access_right": "open",
+    "version": "0.1.0",
+    "creators": [
+        {
+            "name": "Vanderhaeghe, Floris",
+            "affiliation": "Research Institute for Nature and Forest",
+            "orcid": "0000-0002-6378-6229"
+        }
+    ],
+    "keywords": [
+        "R",
+        "package",
+        "Natura 2000",
+        "habitat",
+        "environment",
+        "data",
+        "Flanders",
+        "Belgium"
+        ]
+}

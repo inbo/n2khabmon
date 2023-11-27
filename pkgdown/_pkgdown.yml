@@ -1,0 +1,8 @@
+template:
+  params:
+    bootswatch: united
+
+navbar:
+    type: inverse
+
+url: https://inbo.github.io/n2khabmon

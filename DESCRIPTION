@@ -1,0 +1,16 @@
+Package: n2khabmon
+Title: Prepare and Manage N2KHAB Monitoring Schemes
+Version: 0.0.0.9000
+Authors@R: c(
+    person("Floris", "Vanderhaeghe", email = "floris.vanderhaeghe@inbo.be", role = c("aut", "cre"), comment = c(ORCID = "0000-0002-6378-6229")), 
+    person("Research Institute for Nature and Forest", email = "info@inbo.be", role = c("cph")))
+Description: n2khabmon is an R package with
+    utilities to prepare and manage Flemish monitoring schemes
+    regarding Natura 2000 habitats and regionally 
+    important biotopes (RIBs).
+License: GPL (>= 3)
+URL: https://inbo.github.io/n2khabmon, https://github.com/inbo/n2khabmon
+BugReports: https://github.com/inbo/n2khabmon/issues
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
