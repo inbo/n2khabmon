@@ -4,9 +4,9 @@ The concerned data sources are:
 
 - `schemes` and `scheme_types` (to be created, uses either codes or English-only text)
 - `namelist` (accommodates names in multiple languages, for variables of interest that are represented by codes).
-It uses the same template as `namelist` in {n2khab}.
+It uses the same template as `namelist` in `n2khab`.
 
-Formerly, these data sources were part of the {n2khab} package.
+Formerly, these data sources were part of the `n2khab` package.
 
 Set path and filename of the namelist:
 
