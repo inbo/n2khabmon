@@ -3,4 +3,28 @@
   <url>
     <loc>https://inbo.github.io/n2khabmon/index.html</loc>
   </url>
+  <url>
+    <loc>https://inbo.github.io/n2khabmon/reference/n2khabmon-package.html</loc>
+  </url>
+  <url>
+    <loc>https://inbo.github.io/n2khabmon/reference/namelist.html</loc>
+  </url>
+  <url>
+    <loc>https://inbo.github.io/n2khabmon/reference/pkgdatasource_path.html</loc>
+  </url>
+  <url>
+    <loc>https://inbo.github.io/n2khabmon/reference/read_namelistmon.html</loc>
+  </url>
+  <url>
+    <loc>https://inbo.github.io/n2khabmon/reference/read_scheme_types.html</loc>
+  </url>
+  <url>
+    <loc>https://inbo.github.io/n2khabmon/reference/read_schemes.html</loc>
+  </url>
+  <url>
+    <loc>https://inbo.github.io/n2khabmon/reference/scheme_types.html</loc>
+  </url>
+  <url>
+    <loc>https://inbo.github.io/n2khabmon/reference/schemes.html</loc>
+  </url>
 </urlset>
