@@ -77,7 +77,7 @@ in English by default." />
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">n2khabmon</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.0</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.1</span>
       </span>
     </div>
 
@@ -228,27 +228,20 @@ and tags.</p>
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><span class='r-in'><span><span class='fu'>read_schemes</span><span class='op'>(</span><span class='op'>)</span></span></span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> The following `from` values were not present in `x`: ATM_03.1, ATM_04.1, ATM_08.1, ATM_101, ATM_102, GW_03.3, GW_04.2, GW_05.1_aq, GW_05.1_quarries, GW_05.1_terr, GW_05.2, GW_07.1, GW_08.3, INUN_03.4, INUN_061, INUN_062, INUN_063, INUN_064, INUN_065, INUN_066, INUN_07.2, INUN_08.4, INUN_103, SOIL_012, SOIL_013, SOIL_03.2, SOIL_08.2, SURF_012, SURF_03.2, SURF_03.4_lentic, SURF_03.4_lotic, SURF_064, SURF_066, SURF_07.2, SURF_08.2, SURF_08.4, HQ1330, HQ2120, HQ2130, HQ2160, HQ2170, HQ2180, HQ2190_aq, HQ2190_terr, HQ2310, HQ2330, HQ3110, HQ3130, HQ3140, HQ3150, HQ3160, HQ3270, HQ4010, HQ4030, HQ6120, HQ6230, HQ6410, HQ6510, HQ7140, HQ9120, HQ9130, HQ9160, HQ9190, HQ91E0</span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> The following `from` values were not present in `x`: ATM_03.1, ATM_04.1, ATM_08.1, ATM_101, ATM_102, GW_03.3, GW_04.2, GW_05.1_aq, GW_05.1_quarries, GW_05.1_terr, GW_05.2, GW_07.1, GW_08.3, INUN_03.4, INUN_061, INUN_062, INUN_063, INUN_064, INUN_065, INUN_066, INUN_07.2, INUN_08.4, INUN_103, SOIL_012, SOIL_013, SOIL_03.2, SOIL_08.2, SURF_012, SURF_03.2, SURF_03.4_lentic, SURF_03.4_lotic, SURF_064, SURF_066, SURF_07.2, SURF_08.2, SURF_08.4, HQ1330, HQ2120, HQ2130, HQ2160, HQ2170, HQ2180, HQ2190_aq, HQ2190_terr, HQ2310, HQ2330, HQ3110, HQ3130, HQ3140, HQ3150, HQ3160, HQ3270, HQ4010, HQ4030, HQ6120, HQ6230, HQ6410, HQ6510, HQ7140, HQ9120, HQ9130, HQ9160, HQ9190, HQ91E0</span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> The following `from` values were not present in `x`: MNE, MHQ</span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> The following `from` values were not present in `x`: ATM, SOIL, GW, SURF, INUN</span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> The following `from` values were not present in `x`: ATM, SOIL, GW, SURF, INUN</span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> The following `from` values were not present in `x`: aq, lentic, lotic, quarries, terr</span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> The following `from` values were not present in `x`: aq, lentic, lotic, quarries, terr</span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># A tibble: 128 × 25</span></span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span>    scheme   scheme_name    scheme_shortname programme programme_name attribute_1</span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span>    <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>    <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>          <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>            <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>     <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>          <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>      </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 1</span> ATM_03.1 Atmospheric m… ATM: 03.1_eutr_… MNE       Monitoring pr… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 2</span> ATM_03.1 Atmospheric m… ATM: 03.1_eutr_… MNE       Monitoring pr… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 3</span> ATM_04.1 Atmospheric m… ATM: 04.1_acidi… MNE       Monitoring pr… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 4</span> ATM_04.1 Atmospheric m… ATM: 04.1_acidi… MNE       Monitoring pr… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 5</span> ATM_08.1 Atmospheric m… ATM: 08.1_poll_… MNE       Monitoring pr… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 6</span> ATM_08.1 Atmospheric m… ATM: 08.1_poll_… MNE       Monitoring pr… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 7</span> ATM_101  Atmospheric m… ATM: 101_clim_d… MNE       Monitoring pr… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 8</span> ATM_101  Atmospheric m… ATM: 101_clim_d… MNE       Monitoring pr… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 9</span> ATM_102  Atmospheric m… ATM: 102_clim_w… MNE       Monitoring pr… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'>10</span> ATM_102  Atmospheric m… ATM: 102_clim_w… MNE       Monitoring pr… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># ℹ 118 more rows</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># A tibble: 64 × 25</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>    scheme      scheme_name scheme_shortname programme programme_name attribute_1</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>    <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>       <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>       <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>            <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>     <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>          <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>      </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 1</span> ATM_03.1    Atmospheri… ATM: 03.1_eutr_… MNE       Monitoring pr… ATM        </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 2</span> ATM_04.1    Atmospheri… ATM: 04.1_acidi… MNE       Monitoring pr… ATM        </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 3</span> ATM_08.1    Atmospheri… ATM: 08.1_poll_… MNE       Monitoring pr… ATM        </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 4</span> ATM_101     Atmospheri… ATM: 101_clim_d… MNE       Monitoring pr… ATM        </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 5</span> ATM_102     Atmospheri… ATM: 102_clim_w… MNE       Monitoring pr… ATM        </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 6</span> GW_03.3     Groundwate… GW: 03.3_eutr_gw MNE       Monitoring pr… GW         </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 7</span> GW_04.2     Groundwate… GW: 04.2_acidif… MNE       Monitoring pr… GW         </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 8</span> GW_05.1_aq  Groundwate… GW: 05.1_des_gw… MNE       Monitoring pr… GW         </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 9</span> GW_05.1_qu… Groundwate… GW: 05.1_des_gw… MNE       Monitoring pr… GW         </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'>10</span> GW_05.1_te… Groundwate… GW: 05.1_des_gw… MNE       Monitoring pr… GW         </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># ℹ 54 more rows</span></span>
 <span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># ℹ 19 more variables: attribute_2 &lt;fct&gt;, attribute_3 &lt;fct&gt;,</span></span>
 <span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   attribute_1_name &lt;fct&gt;, attribute_1_shortname &lt;fct&gt;,</span></span>
 <span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   attribute_2_name &lt;fct&gt;, attribute_2_shortname &lt;fct&gt;,</span></span>
@@ -256,27 +249,20 @@ and tags.</p>
 <span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   spatial_restriction &lt;chr&gt;, notes &lt;chr&gt;, tag_1 &lt;chr&gt;, tag_2 &lt;chr&gt;,</span></span>
 <span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   tag_3 &lt;chr&gt;, tag_1_name &lt;chr&gt;, tag_1_shortname &lt;chr&gt;, tag_2_name &lt;chr&gt;, …</span></span>
 <span class='r-in'><span><span class='fu'>read_schemes</span><span class='op'>(</span>lang <span class='op'>=</span> <span class='st'>"nl"</span><span class='op'>)</span></span></span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> The following `from` values were not present in `x`: ATM_03.1, ATM_04.1, ATM_08.1, ATM_101, ATM_102, GW_03.3, GW_04.2, GW_05.1_aq, GW_05.1_quarries, GW_05.1_terr, GW_05.2, GW_07.1, GW_08.3, INUN_03.4, INUN_061, INUN_062, INUN_063, INUN_064, INUN_065, INUN_066, INUN_07.2, INUN_08.4, INUN_103, SOIL_012, SOIL_013, SOIL_03.2, SOIL_08.2, SURF_012, SURF_03.2, SURF_03.4_lentic, SURF_03.4_lotic, SURF_064, SURF_066, SURF_07.2, SURF_08.2, SURF_08.4, HQ1330, HQ2120, HQ2130, HQ2160, HQ2170, HQ2180, HQ2190_aq, HQ2190_terr, HQ2310, HQ2330, HQ3110, HQ3130, HQ3140, HQ3150, HQ3160, HQ3270, HQ4010, HQ4030, HQ6120, HQ6230, HQ6410, HQ6510, HQ7140, HQ9120, HQ9130, HQ9160, HQ9190, HQ91E0</span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> The following `from` values were not present in `x`: ATM_03.1, ATM_04.1, ATM_08.1, ATM_101, ATM_102, GW_03.3, GW_04.2, GW_05.1_aq, GW_05.1_quarries, GW_05.1_terr, GW_05.2, GW_07.1, GW_08.3, INUN_03.4, INUN_061, INUN_062, INUN_063, INUN_064, INUN_065, INUN_066, INUN_07.2, INUN_08.4, INUN_103, SOIL_012, SOIL_013, SOIL_03.2, SOIL_08.2, SURF_012, SURF_03.2, SURF_03.4_lentic, SURF_03.4_lotic, SURF_064, SURF_066, SURF_07.2, SURF_08.2, SURF_08.4, HQ1330, HQ2120, HQ2130, HQ2160, HQ2170, HQ2180, HQ2190_aq, HQ2190_terr, HQ2310, HQ2330, HQ3110, HQ3130, HQ3140, HQ3150, HQ3160, HQ3270, HQ4010, HQ4030, HQ6120, HQ6230, HQ6410, HQ6510, HQ7140, HQ9120, HQ9130, HQ9160, HQ9190, HQ91E0</span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> The following `from` values were not present in `x`: MNE, MHQ</span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> The following `from` values were not present in `x`: ATM, SOIL, GW, SURF, INUN</span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> The following `from` values were not present in `x`: ATM, SOIL, GW, SURF, INUN</span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> The following `from` values were not present in `x`: aq, lentic, lotic, quarries, terr</span>
-<span class='r-msg co'><span class='r-pr'>#&gt;</span> The following `from` values were not present in `x`: aq, lentic, lotic, quarries, terr</span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># A tibble: 128 × 25</span></span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span>    scheme   scheme_name    scheme_shortname programme programme_name attribute_1</span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span>    <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>    <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>          <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>            <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>     <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>          <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>      </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 1</span> ATM_03.1 Atmosferisch … ATM: 03.1_eutr_… MNE       Monitoringpro… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 2</span> ATM_03.1 Atmosferisch … ATM: 03.1_eutr_… MNE       Monitoringpro… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 3</span> ATM_04.1 Atmosferisch … ATM: 04.1_verzu… MNE       Monitoringpro… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 4</span> ATM_04.1 Atmosferisch … ATM: 04.1_verzu… MNE       Monitoringpro… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 5</span> ATM_08.1 Atmosferisch … ATM: 08.1_veron… MNE       Monitoringpro… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 6</span> ATM_08.1 Atmosferisch … ATM: 08.1_veron… MNE       Monitoringpro… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 7</span> ATM_101  Atmosferisch … ATM: 101_klim_d… MNE       Monitoringpro… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 8</span> ATM_101  Atmosferisch … ATM: 101_klim_d… MNE       Monitoringpro… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 9</span> ATM_102  Atmosferisch … ATM: 102_klim_n… MNE       Monitoringpro… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'>10</span> ATM_102  Atmosferisch … ATM: 102_klim_n… MNE       Monitoringpro… ATM        </span>
-<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># ℹ 118 more rows</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># A tibble: 64 × 25</span></span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>    scheme      scheme_name scheme_shortname programme programme_name attribute_1</span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span>    <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>       <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>       <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>            <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>     <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>          <span style='color: #949494; font-style: italic;'>&lt;fct&gt;</span>      </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 1</span> ATM_03.1    Atmosferis… ATM: 03.1_eutr_… MNE       Monitoringpro… ATM        </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 2</span> ATM_04.1    Atmosferis… ATM: 04.1_verzu… MNE       Monitoringpro… ATM        </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 3</span> ATM_08.1    Atmosferis… ATM: 08.1_veron… MNE       Monitoringpro… ATM        </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 4</span> ATM_101     Atmosferis… ATM: 101_klim_d… MNE       Monitoringpro… ATM        </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 5</span> ATM_102     Atmosferis… ATM: 102_klim_n… MNE       Monitoringpro… ATM        </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 6</span> GW_03.3     Grondwater… GW: 03.3_eutr_gw MNE       Monitoringpro… GW         </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 7</span> GW_04.2     Grondwater… GW: 04.2_verzu_… MNE       Monitoringpro… GW         </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 8</span> GW_05.1_aq  Grondwater… GW: 05.1_verdro… MNE       Monitoringpro… GW         </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'> 9</span> GW_05.1_qu… Grondwater… GW: 05.1_verdro… MNE       Monitoringpro… GW         </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #BCBCBC;'>10</span> GW_05.1_te… Grondwater… GW: 05.1_verdro… MNE       Monitoringpro… GW         </span>
+<span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># ℹ 54 more rows</span></span>
 <span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'># ℹ 19 more variables: attribute_2 &lt;fct&gt;, attribute_3 &lt;fct&gt;,</span></span>
 <span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   attribute_1_name &lt;fct&gt;, attribute_1_shortname &lt;fct&gt;,</span></span>
 <span class='r-out co'><span class='r-pr'>#&gt;</span> <span style='color: #949494;'>#   attribute_2_name &lt;fct&gt;, attribute_2_shortname &lt;fct&gt;,</span></span>
