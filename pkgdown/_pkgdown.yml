@@ -6,3 +6,17 @@ navbar:
     type: inverse
 
 url: https://inbo.github.io/n2khabmon
+
+reference:
+  - title: "Using the reference lists"
+    contents:
+      - read_schemes
+      - read_scheme_types
+  - title: "Documentation of included data sources"
+    contents:
+      - schemes
+      - scheme_types
+      - namelist
+  - title: "Utilities and helpers"
+    contents:
+      - read_namelistmon
