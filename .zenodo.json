@@ -4,11 +4,11 @@
     "license": "GPL-3.0",
     "upload_type": "software",
     "access_right": "open",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "creators": [
         {
             "name": "Vanderhaeghe, Floris",
-            "affiliation": "Research Institute for Nature and Forest",
+            "affiliation": "Research Institute for Nature and Forest (INBO)",
             "orcid": "0000-0002-6378-6229"
         }
     ],

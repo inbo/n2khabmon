@@ -1,3 +1,7 @@
+# n2khabmon 0.1.1 (2023-12-01)
+
+- Set the minimum required version of {n2khab}.
+
 # n2khabmon 0.1.0 (2023-12-01)
 
 - The data sources `schemes` and `scheme_types` that were distributed by package {[n2khab](https://inbo.github.io/n2khab)} have moved to {n2khabmon} (#1).
