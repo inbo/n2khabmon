@@ -16,8 +16,8 @@ status](https://inbo.r-universe.dev/badges/n2khabmon)](https://inbo.r-universe.d
 <!-- badges: end -->
 
 The goal of `n2khabmon` is to prepare and manage Flemish monitoring
-schemes regarding Natura 2000 habitats and regionally important biotopes
-(RIBs).
+schemes regarding Natura 2000 (**n2k**) habitats (**hab**) and
+regionally important biotopes (RIBs).
 
 ## Installation
 
@@ -47,6 +47,12 @@ need a version from another branch, add the `ref` argument in the above
 function to provide the branch name.
 
 Repeat the installation when you wish to upgrade.
+
+## Related package
+
+See also the general-purpose [`n2khab`](https://inbo.github.io/n2khab)
+package with relation to projects about Natura 2000 habitat in Flanders.
+It provides preprocessing functions and standard reference data.
 
 ## Code of Conduct
 

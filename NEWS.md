@@ -2,7 +2,7 @@
 
 # n2khabmon 0.1.1 (2023-12-01)
 
-- Set the minimum required version of {n2khab}.
+- Set the minimum required version of {n2khab} (#3).
 
 # n2khabmon 0.1.0 (2023-12-01)
 
