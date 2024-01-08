@@ -2,13 +2,13 @@ citHeader("To cite n2khabmon in publications use:")
 
 citEntry(
   entry    = "Manual",
-  title    = "R package n2khabmon: providing preprocessed reference data for Flemish Natura 2000 habitat analyses",
+  title    = "R package n2khabmon: prepare and manage N2KHAB monitoring schemes",
   author   = "Floris Vanderhaeghe",
   year     = "2023",
   url      = "https://inbo.github.io/n2khabmon",
 
   textVersion = paste("Vanderhaeghe F (2023).",
-  "R package n2khabmon: providing preprocessed reference data for Flemish Natura 2000 habitat analyses.",
+  "R package n2khabmon: prepare and manage N2KHAB monitoring schemes.",
   "https://inbo.github.io/n2khabmon."
   )
 )
