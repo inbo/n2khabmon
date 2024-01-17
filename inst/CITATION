@@ -4,10 +4,10 @@ citEntry(
   entry    = "Manual",
   title    = "R package n2khabmon: prepare and manage N2KHAB monitoring schemes",
   author   = "Floris Vanderhaeghe",
-  year     = "2023",
+  year     = "2024",
   url      = "https://inbo.github.io/n2khabmon",
 
-  textVersion = paste("Vanderhaeghe F (2023).",
+  textVersion = paste("Vanderhaeghe F (2024).",
   "R package n2khabmon: prepare and manage N2KHAB monitoring schemes.",
   "https://inbo.github.io/n2khabmon."
   )
