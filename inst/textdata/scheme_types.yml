@@ -5,8 +5,8 @@
   sorting:
   - scheme
   - type
-  hash: 1d16af60f0fb182574a03255abb68d40909e1c07
-  data_hash: f6f047d303c7a2d897aac7b16cd4e7e46e5f2141
+  hash: f524df97d6a2338298f54d28479a4dd150c04492
+  data_hash: 15566cc555458d0a9108c0d9bec43950db66e6f3
 scheme:
   class: factor
   labels:
@@ -61,7 +61,7 @@ scheme:
   - HQ3140
   - HQ3150
   - HQ3160
-  - HQ3270
+  - HQ3260
   - HQ4010
   - HQ4030
   - HQ6120
@@ -126,7 +126,7 @@ scheme:
   - 45
   - 46
   - 47
-  - 48
+  - 40
   - 49
   - 50
   - 51
