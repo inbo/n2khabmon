@@ -1,3 +1,7 @@
+# n2khabmon 0.1.2 (2024-01-18)
+
+- A misspecification of MHQ monitoring scheme HQ3260 (#5) has been fixed in data sources `namelist`, `schemes` and `scheme_types`.
+
 # n2khabmon 0.1.1 (2023-12-01)
 
 - Set the minimum required version of {n2khab} (#3).

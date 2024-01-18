@@ -93,6 +93,16 @@ and tags.
 \code{read_schemes(lang = "nl")}
 }
 
+\section{Anticipating conflicts with n2khab (where this function is deprecated)}{
+
+An efficient way with base R to avoid function masking and conflict warnings
+when attaching both \code{{n2khab}} and \code{{n2khabmon}}, regardless of the order
+in which they're loaded, is by specifying something as below in your
+script, at least \emph{before} loading \code{{n2khab}}:
+
+\code{conflictRules("n2khab", exclude = c("read_schemes", "read_scheme_types"))}
+}
+
 \examples{
 read_schemes()
 read_schemes(lang = "nl")

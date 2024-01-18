@@ -30,7 +30,7 @@ Useful links:
 Other contributors:
 \itemize{
   \item Toon Westra \email{toon.westra@inbo.be} (\href{https://orcid.org/0000-0003-2478-9459}{ORCID}) [contributor]
-  \item Research Institute for Nature and Forest \email{info@inbo.be} [copyright holder]
+  \item Research Institute for Nature and Forest (INBO) \email{info@inbo.be} [copyright holder]
 }
 
 }
