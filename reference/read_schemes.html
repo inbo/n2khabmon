@@ -77,7 +77,7 @@ in English by default." />
       </button>
       <span class="navbar-brand">
         <a class="navbar-link" href="../index.html">n2khabmon</a>
-        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.1</span>
+        <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.1.2</span>
       </span>
     </div>
 
@@ -219,6 +219,15 @@ and tags.</p>
 
 <p><code>read_schemes()</code></p>
 <p><code>read_schemes(lang = "nl")</code></p>
+    <h2 class="hasAnchor" id="anticipating-conflicts-with-n-khab-where-this-function-is-deprecated-"><a class="anchor" href="#anticipating-conflicts-with-n-khab-where-this-function-is-deprecated-"></a>Anticipating conflicts with n2khab (where this function is deprecated)</h2>
+
+    
+
+<p>An efficient way with base R to avoid function masking and conflict warnings
+when attaching both <code>{n2khab}</code> and <code>{n2khabmon}</code>, regardless of the order
+in which they're loaded, is by specifying something as below in your
+script, at least <em>before</em> loading <code>{n2khab}</code>:</p>
+<p><code>conflictRules("n2khab", exclude = c("read_schemes", "read_scheme_types"))</code></p>
     <h2 class="hasAnchor" id="see-also"><a class="anchor" href="#see-also"></a>See also</h2>
 
     <div class='dont-index'><p><code><a href='schemes.html'>schemes</a></code></p>
