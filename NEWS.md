@@ -1,5 +1,7 @@
 # n2khabmon (development version)
 
+- `read_scheme_types()`: fix the call to `n2khab::read_types()` when running `read_scheme_types(extended = TRUE)` ([995b32b](https://github.com/inbo/n2khab/commit/995b32b)).
+
 # n2khabmon 0.1.2 (2024-01-18)
 
 - A misspecification of MHQ monitoring scheme HQ3260 (#5) has been fixed in data sources `namelist`, `schemes` and `scheme_types`.
