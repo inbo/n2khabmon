@@ -532,12 +532,7 @@ read_scheme_types <- function(path = pkgdatasource_path("textdata/scheme_types",
       spread(key = .data$key, value = .data$value)
 
     types <-
-      n2khab::read_types(
-        path = path,
-        file = "types",
-        file_namelist = file_namelist,
-        lang = lang
-      ) %>%
+      n2khab::read_types(lang = lang) %>%
       gather(
         key = "key",
         value = "value",
