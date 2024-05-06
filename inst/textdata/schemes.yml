@@ -5,8 +5,8 @@
   sorting:
   - programme
   - scheme
-  hash: 0d1cc8555f417924aa8c7c08feb9b52c8eb2e212
-  data_hash: 81182a48ef9d6facf38a0d31fb372ee66882e4da
+  hash: 673425b8d121998f9d991046eddebbfd25143a4a
+  data_hash: 75eca4b595176f155b23af80a8fde2ea537ce6a7
 scheme:
   class: factor
   labels:
@@ -64,7 +64,6 @@ scheme:
   - HQ3260
   - HQ4010
   - HQ4030
-  - HQ6120
   - HQ6230
   - HQ6410
   - HQ6510
@@ -129,7 +128,6 @@ scheme:
   - 40
   - 49
   - 50
-  - 51
   - 52
   - 53
   - 54
@@ -175,7 +173,6 @@ attribute_1:
   - '3260'
   - '4010'
   - '4030'
-  - '6120'
   - '6230'
   - '6410'
   - '6510'
@@ -209,7 +206,6 @@ attribute_1:
   - 34
   - 20
   - 21
-  - 22
   - 23
   - 24
   - 25
