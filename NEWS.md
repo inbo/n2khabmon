@@ -1,4 +1,4 @@
-# n2khabmon (development version)
+# n2khabmon 0.2.0 (2024-05-06)
 
 - `schemes` & `scheme_types` data sources: drop scheme `HQ6120`; add type for scheme `HQ2330` (#10).
 - `scheme_types` data source: define typegroups for schemes `SOIL_03.2` & `SURF_03.4_lotic` (#10).
