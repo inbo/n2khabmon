@@ -90,6 +90,10 @@ SOIL	en	Soil monitoring	NA
 SOIL_012	en	Soil monitoring: 12 Soil dynamics increase (erosion, soil turbation, sand drift)	SOIL: 012_soildyn_incr
 SOIL_013	en	Soil monitoring: 13 Soil dynamics decrease (erosion, soil turbation, sand drift)	SOIL: 013_soildyn_decr
 SOIL_03.2	en	Soil monitoring: 3.2 Eutrophication through soil	SOIL: 03.2_eutr_soil
+SOIL_03.2_group1	en	types from oligotrophic environments	oligotrophic
+SOIL_03.2_group2	en	types from mesotrophic environments	mesotrophic
+SOIL_03.2_group3	en	types from weakly eutrophic environments	weakly eutrophic
+SOIL_03.2_group4	en	types from moderately eutrophic to eutrophic environments	(moderately) eutrophic
 SOIL_08.2	en	Soil monitoring: 8.2 Pollution through soil	SOIL: 08.2_poll_soil
 SURF	en	Surfacewater monitoring	NA
 SURF_012	en	Surfacewater monitoring: 12 Soil dynamics increase (erosion, soil turbation, sand drift)	SURF: 012_soildyn_incr
@@ -100,6 +104,10 @@ SURF_03.4_lentic_group2	en	types from mesotrophic environments	mesotrophic
 SURF_03.4_lentic_group3	en	types from weakly eutrophic environments	weakly eutrophic
 SURF_03.4_lentic_group4	en	types from moderately eutrophic to eutrophic environments	(moderately) eutrophic
 SURF_03.4_lotic	en	Surfacewater monitoring: 3.4 Eutrophication through surface water (including inundation): partim lotic waters	SURF: 03.4_eutr_sw: lotic
+SURF_03.4_lotic_group1	en	types from oligotrophic environments	oligotrophic
+SURF_03.4_lotic_group2	en	types from mesotrophic environments	mesotrophic
+SURF_03.4_lotic_group3	en	types from weakly eutrophic environments	weakly eutrophic
+SURF_03.4_lotic_group4	en	types from moderately eutrophic to eutrophic environments	(moderately) eutrophic
 SURF_064	en	Surfacewater monitoring: 64 Decrease in surface water velocity, level or its fluctuation	SURF: 064_swlevel_decr
 SURF_066	en	Surfacewater monitoring: 66 Decrease of wave impact	SURF: 066_wave_decr
 SURF_07.2	en	Surfacewater monitoring: 7.2 Desalination through surface water (including inundation)	SURF: 07.2_desal_sw
@@ -197,6 +205,10 @@ SOIL	nl	Bodemmeetnet	NA
 SOIL_012	nl	Bodemmeetnet: 12 Toename bodemdynamiek (erosie, omwoeling, verstuiving)	SOIL: 012_boddyn_plus
 SOIL_013	nl	Bodemmeetnet: 13 Afname bodemdynamiek (erosie, omwoeling, verstuiving)	SOIL: 013_boddyn_min
 SOIL_03.2	nl	Bodemmeetnet: 3.2 Eutrofiëring via de bodem	SOIL: 03.2_eutr_bod
+SOIL_03.2_group1	nl	types van oligotroof milieu	oligotroof
+SOIL_03.2_group2	nl	types van mesotroof milieu	mesotroof
+SOIL_03.2_group3	nl	types van zwak eutroof milieu	zwak eutroof
+SOIL_03.2_group4	nl	types van matig eutroof tot eutroof milieu	(matig) eutroof
 SOIL_08.2	nl	Bodemmeetnet: 8.2 Verontreiniging via de bodem	SOIL: 08.2_verontr_bod
 SURF	nl	Oppervlaktewatermeetnet	NA
 SURF_012	nl	Oppervlaktewatermeetnet: 12 Toename bodemdynamiek (erosie, omwoeling, verstuiving)	SURF: 012_boddyn_plus
@@ -207,6 +219,10 @@ SURF_03.4_lentic_group2	nl	types van mesotroof milieu	mesotroof
 SURF_03.4_lentic_group3	nl	types van zwak eutroof milieu	zwak eutroof
 SURF_03.4_lentic_group4	nl	types van matig eutroof tot eutroof milieu	(matig) eutroof
 SURF_03.4_lotic	nl	Oppervlaktewatermeetnet: 3.4 Eutrofiëring via het oppervlaktewater (incl. overstromingswater en afspoeling): partim stromende wateren	SURF: 03.4_eutr_ow: lotic
+SURF_03.4_lotic_group1	nl	types van oligotroof milieu	oligotroof
+SURF_03.4_lotic_group2	nl	types van mesotroof milieu	mesotroof
+SURF_03.4_lotic_group3	nl	types van zwak eutroof milieu	zwak eutroof
+SURF_03.4_lotic_group4	nl	types van matig eutroof tot eutroof milieu	(matig) eutroof
 SURF_064	nl	Oppervlaktewatermeetnet: 64 Afname van stroomsnelheid, waterpeil en/of de fluctuatie ervan	SURF: 064_owpeil_min
 SURF_066	nl	Oppervlaktewatermeetnet: 66  Afname golfslagwerking	SURF: 066_golf_min
 SURF_07.2	nl	Oppervlaktewatermeetnet: 7.2 Verzoeting via het oppervlaktewater (incl. overstromingswater)	SURF: 07.2_verzoet_ow

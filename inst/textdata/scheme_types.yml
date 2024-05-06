@@ -5,8 +5,8 @@
   sorting:
   - scheme
   - type
-  hash: ecce26a9ca9d0771192724b4d53e4b8655058a3d
-  data_hash: 9d78ce63f8d2de15ab908b38d062edaa773e7cde
+  hash: fd5e35e7671efa6e0d9a6fc691da0ac4c745d2fe
+  data_hash: fc922afef448dda550b49c0d0ac2debc985de441
 scheme:
   class: factor
   labels:
@@ -393,10 +393,18 @@ typegroup:
   - GW_05.1_terr_group3
   - GW_05.1_terr_group4
   - GW_05.1_terr_group5
+  - SOIL_03.2_group1
+  - SOIL_03.2_group2
+  - SOIL_03.2_group3
+  - SOIL_03.2_group4
   - SURF_03.4_lentic_group1
   - SURF_03.4_lentic_group2
   - SURF_03.4_lentic_group3
   - SURF_03.4_lentic_group4
+  - SURF_03.4_lotic_group1
+  - SURF_03.4_lotic_group2
+  - SURF_03.4_lotic_group3
+  - SURF_03.4_lotic_group4
   index:
   - 1
   - 2
@@ -423,8 +431,16 @@ typegroup:
   - 18
   - 19
   - 20
+  - 30
+  - 31
+  - 32
+  - 33
   - 21
   - 22
   - 23
   - 24
+  - 34
+  - 35
+  - 36
+  - 37
   ordered: no
