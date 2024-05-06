@@ -1,3 +1,9 @@
+# n2khabmon 0.2.0 (2024-05-06)
+
+- `schemes` & `scheme_types` data sources: drop scheme `HQ6120`; add type for scheme `HQ2330` (#10).
+- `scheme_types` data source: define typegroups for schemes `SOIL_03.2` & `SURF_03.4_lotic` (#10).
+- `namelist` data source: use longer names for MNE schemes (#10).
+
 # n2khabmon 0.1.3 (2024-02-06)
 
 - `read_scheme_types()`: fix the call to `n2khab::read_types()` when running `read_scheme_types(extended = TRUE)` ([995b32b](https://github.com/inbo/n2khabmon/commit/995b32b)).

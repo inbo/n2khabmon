@@ -267,7 +267,9 @@ typegroups <-
                .name_repair = make.names) %>% 
     slice(2:n()) %>% 
     expand_grid(scheme = c("GW_03.3",
-                           "SURF_03.4_lentic")
+                           "SURF_03.4_lentic",
+                           "SURF_03.4_lotic",
+                           "SOIL_03.2")
                 ) %>% 
     select(scheme,
            type = Type,
@@ -412,20 +414,17 @@ schemes %>%
     left_join(namelist %>% select(-shortname),
               by = c("attribute_1" = "code", "lang")) %>% 
     rename(name_1 = name) %>% 
-    left_join(tibble(lang = c("en", "nl"),
-                     name_2 = c("environmental pressure",
-                                "milieudruk")),
-              by = "lang") %>% 
+    left_join(read_namelist(lang = "all") %>% select(-shortname),
+              by = c("attribute_2" = "code", "lang")) %>% 
+    rename(name_3 = name) %>% 
     left_join(read_namelist(lang = "all") %>% select(-name),
               by = c("attribute_2" = "code", "lang")) %>% 
-    rename(name_3 = shortname) %>% 
+    rename(shortname_3 = shortname) %>% 
     left_join(namelist %>% select(-shortname),
               by = c("attribute_3" = "code", "lang")) %>% 
     rename(name_4 = name) %>% 
     mutate(name = str_c(name_1, 
                         ": ",
-                        name_2,
-                        " ",
                         name_3,
                         ifelse(is.na(name_4),
                                  "",
@@ -435,7 +434,7 @@ schemes %>%
                     ),
            shortname = str_c(attribute_1,
                              ": ",
-                             name_3,
+                             shortname_3,
                              ifelse(is.na(attribute_3),
                                  "",
                                  str_c(": ",
@@ -480,7 +479,12 @@ tribble(~nr, ~lang, ~name, ~shortname,
         4, "en", "types from moderately eutrophic to eutrophic environments", "(moderately) eutrophic",
         4, "nl", "types van matig eutroof tot eutroof milieu", "(matig) eutroof"
         ) %>% 
-      crossing(prefix = c("GW_03.3_group", "SURF_03.4_lentic_group")) %>% 
+      crossing(prefix = c(
+          "GW_03.3_group", 
+          "SURF_03.4_lentic_group",
+          "SURF_03.4_lotic_group",
+          "SOIL_03.2_group"
+      )) %>% 
       mutate(code = str_c(prefix, nr)) %>% 
       select(code, lang, name, shortname)
   ) %>% 

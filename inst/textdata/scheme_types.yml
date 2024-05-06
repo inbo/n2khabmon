@@ -5,8 +5,8 @@
   sorting:
   - scheme
   - type
-  hash: f524df97d6a2338298f54d28479a4dd150c04492
-  data_hash: 15566cc555458d0a9108c0d9bec43950db66e6f3
+  hash: fd5e35e7671efa6e0d9a6fc691da0ac4c745d2fe
+  data_hash: fc922afef448dda550b49c0d0ac2debc985de441
 scheme:
   class: factor
   labels:
@@ -64,7 +64,6 @@ scheme:
   - HQ3260
   - HQ4010
   - HQ4030
-  - HQ6120
   - HQ6230
   - HQ6410
   - HQ6510
@@ -129,7 +128,6 @@ scheme:
   - 40
   - 49
   - 50
-  - 51
   - 52
   - 53
   - 54
@@ -395,10 +393,18 @@ typegroup:
   - GW_05.1_terr_group3
   - GW_05.1_terr_group4
   - GW_05.1_terr_group5
+  - SOIL_03.2_group1
+  - SOIL_03.2_group2
+  - SOIL_03.2_group3
+  - SOIL_03.2_group4
   - SURF_03.4_lentic_group1
   - SURF_03.4_lentic_group2
   - SURF_03.4_lentic_group3
   - SURF_03.4_lentic_group4
+  - SURF_03.4_lotic_group1
+  - SURF_03.4_lotic_group2
+  - SURF_03.4_lotic_group3
+  - SURF_03.4_lotic_group4
   index:
   - 1
   - 2
@@ -425,8 +431,16 @@ typegroup:
   - 18
   - 19
   - 20
+  - 30
+  - 31
+  - 32
+  - 33
   - 21
   - 22
   - 23
   - 24
+  - 34
+  - 35
+  - 36
+  - 37
   ordered: no
