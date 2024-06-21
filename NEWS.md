@@ -1,5 +1,7 @@
 # n2khabmon (development version)
 
+- `namelist` data source: update names of some schemes (#13).
+
 # n2khabmon 0.2.0 (2024-05-06)
 
 - `schemes` & `scheme_types` data sources: drop scheme `HQ6120`; add type for scheme `HQ2330` (#10).
