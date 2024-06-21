@@ -184,17 +184,17 @@ HQ9130	nl	Meetnet habitatkwaliteit: eiken-beukenbossen met wilde hyacint en pare
 HQ9160	nl	Meetnet habitatkwaliteit: eiken-haagbeukenbossen	Meetnet habitatkwaliteit 9160
 HQ9190	nl	Meetnet habitatkwaliteit: oude eiken-berkenbossen	Meetnet habitatkwaliteit 9190
 HQ91E0	nl	Meetnet habitatkwaliteit: vochtige alluviale bossen	Meetnet habitatkwaliteit 91E0
-INUN	nl	Inundatiemeetnet	NA
-INUN_03.4	nl	Inundatiemeetnet: 3.4 Eutrofiëring via het oppervlaktewater (incl. overstromingswater en afspoeling)	INUN: 03.4_eutr_ow
-INUN_061	nl	Inundatiemeetnet: 61 Toename overstromingsduur of -frequentie (incl. getijden)	INUN: 061_overstr_plus
-INUN_062	nl	Inundatiemeetnet: 62 Afname overstromingsduur of -frequentie (incl. getijden)	INUN: 062_overstr_min
-INUN_063	nl	Inundatiemeetnet: 63 Toename van stroomsnelheid, waterpeil en/of de fluctuatie ervan	INUN: 063_owpeil_plus
-INUN_064	nl	Inundatiemeetnet: 64 Afname van stroomsnelheid, waterpeil en/of de fluctuatie ervan	INUN: 064_owpeil_min
-INUN_065	nl	Inundatiemeetnet: 65  Toename golfslagwerking	INUN: 065_golf_plus
-INUN_066	nl	Inundatiemeetnet: 66  Afname golfslagwerking	INUN: 066_golf_min
-INUN_07.2	nl	Inundatiemeetnet: 7.2 Verzoeting via het oppervlaktewater (incl. overstromingswater)	INUN: 07.2_verzoet_ow
-INUN_08.4	nl	Inundatiemeetnet: 8.4 Verontreiniging via het oppervlaktewater (incl. overstromingswater)	INUN: 08.4_verontr_ow
-INUN_103	nl	Inundatiemeetnet: 103 Klimaatverandering: zeespiegelstijging	INUN: 103_klim_zee
+INUN	nl	Inundatiewatermeetnet	NA
+INUN_03.4	nl	Inundatiewatermeetnet: 3.4 Eutrofiëring via het oppervlaktewater (incl. overstromingswater en afspoeling)	INUN: 03.4_eutr_ow
+INUN_061	nl	Inundatiewatermeetnet: 61 Toename overstromingsduur of -frequentie (incl. getijden)	INUN: 061_overstr_plus
+INUN_062	nl	Inundatiewatermeetnet: 62 Afname overstromingsduur of -frequentie (incl. getijden)	INUN: 062_overstr_min
+INUN_063	nl	Inundatiewatermeetnet: 63 Toename van stroomsnelheid, waterpeil en/of de fluctuatie ervan	INUN: 063_owpeil_plus
+INUN_064	nl	Inundatiewatermeetnet: 64 Afname van stroomsnelheid, waterpeil en/of de fluctuatie ervan	INUN: 064_owpeil_min
+INUN_065	nl	Inundatiewatermeetnet: 65  Toename golfslagwerking	INUN: 065_golf_plus
+INUN_066	nl	Inundatiewatermeetnet: 66  Afname golfslagwerking	INUN: 066_golf_min
+INUN_07.2	nl	Inundatiewatermeetnet: 7.2 Verzoeting via het oppervlaktewater (incl. overstromingswater)	INUN: 07.2_verzoet_ow
+INUN_08.4	nl	Inundatiewatermeetnet: 8.4 Verontreiniging via het oppervlaktewater (incl. overstromingswater)	INUN: 08.4_verontr_ow
+INUN_103	nl	Inundatiewatermeetnet: 103 Klimaatverandering: zeespiegelstijging	INUN: 103_klim_zee
 lentic	nl	stilstaande wateren	NA
 lotic	nl	stromende wateren	NA
 MHQ	nl	Monitoringprogramma biotische habitatkwaliteit	NA
