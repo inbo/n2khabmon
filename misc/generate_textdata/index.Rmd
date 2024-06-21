@@ -52,6 +52,7 @@ library(knitr)
 library(googlesheets4)
 local_gs4_quiet()
 library(git2rdata)
+library(forcats)
 library(n2khab)
 opts_chunk$set(
   echo = TRUE,
