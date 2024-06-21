@@ -26,14 +26,14 @@ GW_03.3_group2	en	types from mesotrophic environments	mesotrophic
 GW_03.3_group3	en	types from weakly eutrophic environments	weakly eutrophic
 GW_03.3_group4	en	types from moderately eutrophic to eutrophic environments	(moderately) eutrophic
 GW_04.2	en	Groundwater monitoring: 4.2 Acidification through groundwater	GW: 04.2_acidif_gw
-GW_05.1_aq	en	Groundwater monitoring: 5.1 Desiccation through groundwater: partim aquatic	GW: 05.1_des_gw: aq
+GW_05.1_aq	en	Groundwater monitoring: 5.1 Desiccation through groundwater: scheme section aquatic	GW: 05.1_des_gw: aq
 GW_05.1_aq_group1	en	types from spring-fed brooks	spring-fed brooks
 GW_05.1_aq_group2	en	types from lakes with stable groundwater table	stable lakes
 GW_05.1_aq_group3	en	types from lowland rivers	lowland rivers
 GW_05.1_aq_group4	en	types from dune lakes (moderate groundwater dynamics)	dune lakes
 GW_05.1_aq_group5	en	types from softwater lakes with dynamic groundwater table	dynamic softwater lakes
-GW_05.1_quarries	en	Groundwater monitoring: 5.1 Desiccation through groundwater: partim marl quarries	GW: 05.1_des_gw: quarries
-GW_05.1_terr	en	Groundwater monitoring: 5.1 Desiccation through groundwater: partim terrestrial	GW: 05.1_des_gw: terr
+GW_05.1_quarries	en	Groundwater monitoring: 5.1 Desiccation through groundwater: scheme section marl quarries	GW: 05.1_des_gw: quarries
+GW_05.1_terr	en	Groundwater monitoring: 5.1 Desiccation through groundwater: scheme section terrestrial	GW: 05.1_des_gw: terr
 GW_05.1_terr_group1	en	types from very wet environments	very wet
 GW_05.1_terr_group2	en	types from wet environments	wet
 GW_05.1_terr_group3	en	types from moderately wet environments	moderately wet
@@ -98,12 +98,12 @@ SOIL_08.2	en	Soil monitoring: 8.2 Pollution through soil	SOIL: 08.2_poll_soil
 SURF	en	Surfacewater monitoring	NA
 SURF_012	en	Surfacewater monitoring: 12 Soil dynamics increase (erosion, soil turbation, sand drift)	SURF: 012_soildyn_incr
 SURF_03.2	en	Surfacewater monitoring: 3.2 Eutrophication through soil	SURF: 03.2_eutr_soil
-SURF_03.4_lentic	en	Surfacewater monitoring: 3.4 Eutrophication through surface water (including inundation): partim lentic waters	SURF: 03.4_eutr_sw: lentic
+SURF_03.4_lentic	en	Surfacewater monitoring: 3.4 Eutrophication through surface water (including inundation): scheme section lentic waters	SURF: 03.4_eutr_sw: lentic
 SURF_03.4_lentic_group1	en	types from oligotrophic environments	oligotrophic
 SURF_03.4_lentic_group2	en	types from mesotrophic environments	mesotrophic
 SURF_03.4_lentic_group3	en	types from weakly eutrophic environments	weakly eutrophic
 SURF_03.4_lentic_group4	en	types from moderately eutrophic to eutrophic environments	(moderately) eutrophic
-SURF_03.4_lotic	en	Surfacewater monitoring: 3.4 Eutrophication through surface water (including inundation): partim lotic waters	SURF: 03.4_eutr_sw: lotic
+SURF_03.4_lotic	en	Surfacewater monitoring: 3.4 Eutrophication through surface water (including inundation): scheme section lotic waters	SURF: 03.4_eutr_sw: lotic
 SURF_03.4_lotic_group1	en	types from oligotrophic environments	oligotrophic
 SURF_03.4_lotic_group2	en	types from mesotrophic environments	mesotrophic
 SURF_03.4_lotic_group3	en	types from weakly eutrophic environments	weakly eutrophic
@@ -141,14 +141,14 @@ GW_03.3_group2	nl	types van mesotroof milieu	mesotroof
 GW_03.3_group3	nl	types van zwak eutroof milieu	zwak eutroof
 GW_03.3_group4	nl	types van matig eutroof tot eutroof milieu	(matig) eutroof
 GW_04.2	nl	Grondwatermeetnet: 4.2 Verzuring via het grondwater	GW: 04.2_verzu_gw
-GW_05.1_aq	nl	Grondwatermeetnet: 5.1 Verdroging via het grondwater: partim aquatisch	GW: 05.1_verdro_gw: aq
+GW_05.1_aq	nl	Grondwatermeetnet: 5.1 Verdroging via het grondwater: deelmeetnet aquatisch	GW: 05.1_verdro_gw: aq
 GW_05.1_aq_group1	nl	types van bronbeken	bronbeken
 GW_05.1_aq_group2	nl	types van stilstaand water met stabiel grondwaterregime	stabiele plassen
 GW_05.1_aq_group3	nl	types van laaglandbeken	laaglandbeken
 GW_05.1_aq_group4	nl	types van duinplassen (middelmatig grondwaterregime)	duinplassen
 GW_05.1_aq_group5	nl	types van vennen met dynamisch grondwaterregime	dynamische vennen
-GW_05.1_quarries	nl	Grondwatermeetnet: 5.1 Verdroging via het grondwater: partim mergelgroeven	GW: 05.1_verdro_gw: quarries
-GW_05.1_terr	nl	Grondwatermeetnet: 5.1 Verdroging via het grondwater: partim terrestrisch	GW: 05.1_verdro_gw: terr
+GW_05.1_quarries	nl	Grondwatermeetnet: 5.1 Verdroging via het grondwater: deelmeetnet mergelgroeven	GW: 05.1_verdro_gw: quarries
+GW_05.1_terr	nl	Grondwatermeetnet: 5.1 Verdroging via het grondwater: deelmeetnet terrestrisch	GW: 05.1_verdro_gw: terr
 GW_05.1_terr_group1	nl	types van zeer nat milieu	zeer nat
 GW_05.1_terr_group2	nl	types van nat milieu	nat
 GW_05.1_terr_group3	nl	types van matig nat milieu	matig nat
@@ -184,17 +184,17 @@ HQ9130	nl	Meetnet habitatkwaliteit: eiken-beukenbossen met wilde hyacint en pare
 HQ9160	nl	Meetnet habitatkwaliteit: eiken-haagbeukenbossen	Meetnet habitatkwaliteit 9160
 HQ9190	nl	Meetnet habitatkwaliteit: oude eiken-berkenbossen	Meetnet habitatkwaliteit 9190
 HQ91E0	nl	Meetnet habitatkwaliteit: vochtige alluviale bossen	Meetnet habitatkwaliteit 91E0
-INUN	nl	Inundatiemeetnet	NA
-INUN_03.4	nl	Inundatiemeetnet: 3.4 Eutrofiëring via het oppervlaktewater (incl. overstromingswater en afspoeling)	INUN: 03.4_eutr_ow
-INUN_061	nl	Inundatiemeetnet: 61 Toename overstromingsduur of -frequentie (incl. getijden)	INUN: 061_overstr_plus
-INUN_062	nl	Inundatiemeetnet: 62 Afname overstromingsduur of -frequentie (incl. getijden)	INUN: 062_overstr_min
-INUN_063	nl	Inundatiemeetnet: 63 Toename van stroomsnelheid, waterpeil en/of de fluctuatie ervan	INUN: 063_owpeil_plus
-INUN_064	nl	Inundatiemeetnet: 64 Afname van stroomsnelheid, waterpeil en/of de fluctuatie ervan	INUN: 064_owpeil_min
-INUN_065	nl	Inundatiemeetnet: 65  Toename golfslagwerking	INUN: 065_golf_plus
-INUN_066	nl	Inundatiemeetnet: 66  Afname golfslagwerking	INUN: 066_golf_min
-INUN_07.2	nl	Inundatiemeetnet: 7.2 Verzoeting via het oppervlaktewater (incl. overstromingswater)	INUN: 07.2_verzoet_ow
-INUN_08.4	nl	Inundatiemeetnet: 8.4 Verontreiniging via het oppervlaktewater (incl. overstromingswater)	INUN: 08.4_verontr_ow
-INUN_103	nl	Inundatiemeetnet: 103 Klimaatverandering: zeespiegelstijging	INUN: 103_klim_zee
+INUN	nl	Inundatiewatermeetnet	NA
+INUN_03.4	nl	Inundatiewatermeetnet: 3.4 Eutrofiëring via het oppervlaktewater (incl. overstromingswater en afspoeling)	INUN: 03.4_eutr_ow
+INUN_061	nl	Inundatiewatermeetnet: 61 Toename overstromingsduur of -frequentie (incl. getijden)	INUN: 061_overstr_plus
+INUN_062	nl	Inundatiewatermeetnet: 62 Afname overstromingsduur of -frequentie (incl. getijden)	INUN: 062_overstr_min
+INUN_063	nl	Inundatiewatermeetnet: 63 Toename van stroomsnelheid, waterpeil en/of de fluctuatie ervan	INUN: 063_owpeil_plus
+INUN_064	nl	Inundatiewatermeetnet: 64 Afname van stroomsnelheid, waterpeil en/of de fluctuatie ervan	INUN: 064_owpeil_min
+INUN_065	nl	Inundatiewatermeetnet: 65  Toename golfslagwerking	INUN: 065_golf_plus
+INUN_066	nl	Inundatiewatermeetnet: 66  Afname golfslagwerking	INUN: 066_golf_min
+INUN_07.2	nl	Inundatiewatermeetnet: 7.2 Verzoeting via het oppervlaktewater (incl. overstromingswater)	INUN: 07.2_verzoet_ow
+INUN_08.4	nl	Inundatiewatermeetnet: 8.4 Verontreiniging via het oppervlaktewater (incl. overstromingswater)	INUN: 08.4_verontr_ow
+INUN_103	nl	Inundatiewatermeetnet: 103 Klimaatverandering: zeespiegelstijging	INUN: 103_klim_zee
 lentic	nl	stilstaande wateren	NA
 lotic	nl	stromende wateren	NA
 MHQ	nl	Monitoringprogramma biotische habitatkwaliteit	NA
@@ -213,12 +213,12 @@ SOIL_08.2	nl	Bodemmeetnet: 8.2 Verontreiniging via de bodem	SOIL: 08.2_verontr_b
 SURF	nl	Oppervlaktewatermeetnet	NA
 SURF_012	nl	Oppervlaktewatermeetnet: 12 Toename bodemdynamiek (erosie, omwoeling, verstuiving)	SURF: 012_boddyn_plus
 SURF_03.2	nl	Oppervlaktewatermeetnet: 3.2 Eutrofiëring via de bodem	SURF: 03.2_eutr_bod
-SURF_03.4_lentic	nl	Oppervlaktewatermeetnet: 3.4 Eutrofiëring via het oppervlaktewater (incl. overstromingswater en afspoeling): partim stilstaande wateren	SURF: 03.4_eutr_ow: lentic
+SURF_03.4_lentic	nl	Oppervlaktewatermeetnet: 3.4 Eutrofiëring via het oppervlaktewater (incl. overstromingswater en afspoeling): deelmeetnet stilstaande wateren	SURF: 03.4_eutr_ow: lentic
 SURF_03.4_lentic_group1	nl	types van oligotroof milieu	oligotroof
 SURF_03.4_lentic_group2	nl	types van mesotroof milieu	mesotroof
 SURF_03.4_lentic_group3	nl	types van zwak eutroof milieu	zwak eutroof
 SURF_03.4_lentic_group4	nl	types van matig eutroof tot eutroof milieu	(matig) eutroof
-SURF_03.4_lotic	nl	Oppervlaktewatermeetnet: 3.4 Eutrofiëring via het oppervlaktewater (incl. overstromingswater en afspoeling): partim stromende wateren	SURF: 03.4_eutr_ow: lotic
+SURF_03.4_lotic	nl	Oppervlaktewatermeetnet: 3.4 Eutrofiëring via het oppervlaktewater (incl. overstromingswater en afspoeling): deelmeetnet stromende wateren	SURF: 03.4_eutr_ow: lotic
 SURF_03.4_lotic_group1	nl	types van oligotroof milieu	oligotroof
 SURF_03.4_lotic_group2	nl	types van mesotroof milieu	mesotroof
 SURF_03.4_lotic_group3	nl	types van zwak eutroof milieu	zwak eutroof

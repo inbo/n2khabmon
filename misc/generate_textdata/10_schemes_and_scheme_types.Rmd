@@ -23,7 +23,14 @@ Reading data frame coming from the [n2khab-mne-selections](https://gitlab.com/fl
 
 ```{r}
 schemes_types_nl <- 
-    read_vc("rawraw_data/10_compmeetnet_types_milieudrukken")
+    read_vc("rawraw_data/10_compmeetnet_types_milieudrukken") %>% 
+    # fix terms on the fly: still to be implemented in n2khab-mne-selections repo!
+    mutate(
+        Comp_meetnet = fct_recode(
+            Comp_meetnet,
+            Inundatiewatermeetnet = "Inundatiemeetnet"
+            )
+    )
 ```
 
 Reading a link between older Dutch codes of environmental pressures and the current ep_codes:
@@ -81,7 +88,7 @@ schemes_schemetypes <-
                              "Bodemmeetnet" = "SOIL",
                              "Grondwatermeetnet" = "GW",
                              "Oppervlaktewatermeetnet" = "SURF",
-                             "Inundatiemeetnet" = "INUN"),
+                             "Inundatiewatermeetnet" = "INUN"),
         attribute_2 = factor(attribute_2,
                              levels = 
                                  ep_codes %>% 
@@ -370,7 +377,7 @@ cbind(code = c("ATM", "SOIL", "GW", "SURF", "INUN"),
                    "Bodemmeetnet", 
                    "Grondwatermeetnet", 
                    "Oppervlaktewatermeetnet", 
-                   "Inundatiemeetnet")) %>% 
+                   "Inundatiewatermeetnet")) %>% 
     rbind(matrix(c("aq", "en", "aquatic",
                    "terr", "en", "terrestrial",
                    "quarries", "en", "marl quarries",
@@ -423,13 +430,17 @@ schemes %>%
     left_join(namelist %>% select(-shortname),
               by = c("attribute_3" = "code", "lang")) %>% 
     rename(name_4 = name) %>% 
-    mutate(name = str_c(name_1, 
+    mutate(partim = case_when(
+        is.na(name_4) ~ NA_character_,
+        lang == "en" ~ ": scheme section ",
+        lang == "nl" ~ ": deelmeetnet "
+    ),
+           name = str_c(name_1, 
                         ": ",
                         name_3,
                         ifelse(is.na(name_4),
                                  "",
-                                 str_c(": partim ",
-                                       name_4)
+                                 str_c(partim, name_4)
                                  )
                     ),
            shortname = str_c(attribute_1,
