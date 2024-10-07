@@ -20,7 +20,7 @@ Imports:
     curl,
     dplyr,
     git2rdata,
-    n2khab (>= 0.10.0),
+    n2khab (>= 0.11.0),
     remotes,
     rlang,
     stringr,
