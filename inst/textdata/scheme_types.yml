@@ -1,11 +1,11 @@
 ..generic:
-  git2rdata: 0.4.0
+  git2rdata: 0.4.1
   optimize: yes
   NA string: NA
   sorting:
   - scheme
   - type
-  hash: fd5e35e7671efa6e0d9a6fc691da0ac4c745d2fe
+  hash: bb6f605be54e590109dd85bbbc9577f06dff7eed
   data_hash: fc922afef448dda550b49c0d0ac2debc985de441
 scheme:
   class: factor
@@ -214,7 +214,6 @@ type:
   - rbbkam
   - rbbkam+
   - rbbvos
-  - rbbvos+
   - rbbzil
   - rbbzil+
   - '7110'
@@ -326,7 +325,6 @@ type:
   - 57
   - 104
   - 58
-  - 105
   - 59
   - 106
   - 107
