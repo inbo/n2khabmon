@@ -1,4 +1,4 @@
-# n2khabmon (development version)
+# n2khabmon 0.3.1 (2024-10-07)
 
 - `scheme_types` data source: type `rbbvos+` has been dropped as type level, which is inherited from `{n2khab}` 0.11.0 (#16).
 Note that the data source has always only referred to `rbbvos`; `rbbvos` formerly included subtype `rbbvos+`.
